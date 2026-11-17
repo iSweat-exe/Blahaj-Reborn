@@ -31,30 +31,61 @@ Blåhaj Reborn adds the beloved shark plush to Minecraft, modelled and animated 
 - **Creative tab** – every item of the mod lives in the *Blåhaj Reborn* tab.
 - **Something else** – there is a second Blåhaj. Its name is hard to read. It comes with a warning.
 
-> Spoilers ahead. If you want to be surprised, skip the next section.
+<p align="center">
+  <img src="docs/screenshots/placed.webp" alt="A Blåhaj placed on the ground" width="49%">
+  <img src="docs/screenshots/side.webp" alt="A Blåhaj seen from the side" width="49%">
+</p>
 
-<details>
-<summary><b>The Void Blåhaj</b></summary>
+<p align="center">
+  <img src="docs/screenshots/head-front.webp" alt="Wearing a Blåhaj on the head, front" width="32%">
+  <img src="docs/screenshots/head-angle.webp" alt="Wearing a Blåhaj on the head, angle" width="32%">
+  <img src="docs/screenshots/head-back.webp" alt="Wearing a Blåhaj on the head, back" width="32%">
+</p>
 
-<br>
-
-Place it and squish it. Nothing happens for three seconds. Then it rises about ten blocks into the air and opens a
-black hole that pulls in every entity (players excepted) and rips blocks out of the ground. The hole keeps growing,
-collapses, and explodes with everything it swallowed, leaving a scorched crater. It is single use.
-
-The screen glitches, distorts and shakes the whole time (shaders, camera shake, field of view, a darkened sky), and
-there is an advancement waiting for those who witness it.
-
-<p align="center"><img src="docs/screenshots/void-sequence.png" alt="The Void Blåhaj sequence" width="640"></p>
-
-</details>
+<p align="center"><sub>Screenshots taken with Complementary Unbound shaders.</sub></p>
 
 ### Recipes
 
 | Item | Recipe |
 |---|---|
 | Blåhaj | 3 light blue wool, 1 white wool, 1 pink dye, 1 string |
-| Void Blåhaj | 4 diamonds, 4 eyes of ender, 1 Blåhaj |
+
+> **Spoilers ahead.** The second Blåhaj is best discovered in game. Open the section below only if you want to know.
+
+<details>
+<summary><b>The other Blåhaj (spoilers)</b></summary>
+
+<br>
+
+**Recipe:** 4 diamonds, 4 eyes of ender, 1 Blåhaj.
+
+Place it and squish it. Nothing happens for three seconds. Then it rises about ten blocks into the air and opens a
+black hole.
+
+**What the black hole does**
+
+- It pulls in every entity except players, shrinks the creatures it swallows and destroys them in the end.
+- It rips blocks out of the ground and drags them into its orbit.
+- After about ten seconds of growth it collapses, then explodes: swallowed blocks are flung away, everything it
+  swallowed is destroyed, and a scorched crater is left behind. Players are pushed back but not hurt.
+- It is single use. The screen glitches, distorts and shakes the whole time (shaders, camera shake, field of view and
+  a darkened sky), and there is an advancement for those who witness it.
+
+<p align="center">
+  <img src="docs/screenshots/void-hole.webp" alt="The black hole" width="49%">
+  <img src="docs/screenshots/void-crater.webp" alt="The crater left behind" width="49%">
+</p>
+
+</details>
+
+### Known issues
+
+- **The Blåhaj is not positioned correctly in the player's hand.** When it is held, the arm is raised but the plush
+  does not sit perfectly in it yet (third person), and the first-person view has not been adjusted. This will be fixed
+  in the next update. See the `FIXME` in `HumanoidModelMixin.java` and the `thirdperson_*` / `firstperson_*` entries
+  in `models/item/blahaj.json`.
+
+Found something else? Please [open an issue](https://github.com/iSweat-exe/Blahaj-Reborn/issues).
 
 ### Supported versions
 
@@ -71,22 +102,12 @@ there is an advancement waiting for those who witness it.
 3. Download the Blåhaj Reborn jar for your loader from the
    [Releases](https://github.com/iSweat-exe/Blahaj-Reborn/releases) page and drop it into your `mods` folder.
 
-### Known issues
-
-- **The Blåhaj is not positioned correctly in the player's hand.** When it is held, the arm is raised but the plush
-  does not sit perfectly in it yet (third person), and the first-person view has not been adjusted. This will be fixed
-  in the next update. See the `FIXME` in `HumanoidModelMixin.java` and the `thirdperson_*` / `firstperson_*` entries
-  in `models/item/blahaj.json`.
-
-Found something else? Please [open an issue](https://github.com/iSweat-exe/Blahaj-Reborn/issues).
-
 ### Compatibility
 
-- **Shader packs** – tested with Iris 1.11.7, Sodium 0.9.2 and Complementary Reimagined. The black hole renders
-  correctly; the sky darkening is replaced by an on-screen veil because shader packs control the sky.
+- **Shader packs** – tested with Iris 1.11.7, Sodium 0.9.2, Complementary Reimagined and Complementary Unbound.
+  All models and effects render correctly; the sky darkening of the special event is replaced by an on-screen veil
+  because shader packs control the sky.
 - **Other mods** – no known conflicts. Mixins are only used for client visuals (camera, sky, fog, arm pose).
-
-<p align="center"><img src="docs/screenshots/shaders.png" alt="Without and with shaders" width="640"></p>
 
 ### Building from source
 
