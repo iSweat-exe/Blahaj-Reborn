@@ -35,7 +35,6 @@ jobs:
           prerelease: ${{ contains(github.ref_name, '-rc') || contains(github.ref_name, '-beta') || contains(github.ref_name, '-alpha') }}
           draft: false
           files: |
-            fabric/build/libs/*.jar
-            neoforge/build/libs/*.jar
-            forge/build/libs/*.jar
-            !**/*-sources.jar
+            fabric/build/libs/blahaj-reborn-fabric-*[0-9].jar
+            neoforge/build/libs/blahaj-reborn-neoforge-*[0-9].jar
+            forge/build/libs/blahaj-reborn-forge-*[0-9].jar
