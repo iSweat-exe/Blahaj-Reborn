@@ -1,0 +1,314 @@
+{
+  "format_version": "1.12.0",
+  "minecraft:geometry": [
+    {
+      "description": {
+        "identifier": "geometry.blahaj",
+        "texture_width": 32,
+        "texture_height": 32,
+        "visible_bounds_width": 4,
+        "visible_bounds_height": 3,
+        "visible_bounds_offset": [
+          0,
+          1,
+          0
+        ]
+      },
+      "bones": [
+        {
+          "name": "blahaj",
+          "pivot": [
+            -0.02707,
+            1.26959,
+            -3.89125
+          ],
+          "rotation": [
+            0,
+            -90,
+            0
+          ]
+        },
+        {
+          "name": "body",
+          "parent": "blahaj",
+          "pivot": [
+            0.46667,
+            0,
+            -3.91
+          ],
+          "cubes": [
+            {
+              "origin": [
+                -5,
+                1,
+                -5.91
+              ],
+              "size": [
+                11,
+                3,
+                4
+              ],
+              "uv": [
+                0,
+                0
+              ],
+              "mirror": true
+            },
+            {
+              "origin": [
+                -4,
+                0,
+                -5.91
+              ],
+              "size": [
+                10,
+                1,
+                4
+              ],
+              "uv": [
+                0,
+                7
+              ],
+              "mirror": true
+            },
+            {
+              "origin": [
+                -5.1,
+                2,
+                -4.91
+              ],
+              "size": [
+                1,
+                1,
+                2
+              ],
+              "uv": [
+                18,
+                19
+              ],
+              "mirror": true
+            }
+          ]
+        },
+        {
+          "name": "fin_left",
+          "parent": "body",
+          "pivot": [
+            -0.34576,
+            1.52838,
+            -6.41
+          ],
+          "cubes": [
+            {
+              "origin": [
+                0.55424,
+                -1.92162,
+                -6.91
+              ],
+              "size": [
+                2,
+                4.5,
+                1
+              ],
+              "pivot": [
+                1.55424,
+                0.32838,
+                -6.41
+              ],
+              "rotation": [
+                0,
+                0,
+                -57.5
+              ],
+              "uv": [
+                18,
+                12
+              ],
+              "mirror": true
+            }
+          ]
+        },
+        {
+          "name": "fin_right",
+          "parent": "body",
+          "pivot": [
+            -0.22707,
+            1.46959,
+            -3.89125
+          ],
+          "cubes": [
+            {
+              "origin": [
+                0.55424,
+                -1.92162,
+                -1.91
+              ],
+              "size": [
+                2,
+                4.5,
+                1
+              ],
+              "pivot": [
+                1.55424,
+                0.32838,
+                -1.41
+              ],
+              "rotation": [
+                0,
+                0,
+                -57.5
+              ],
+              "uv": [
+                12,
+                16
+              ],
+              "mirror": true
+            }
+          ]
+        },
+        {
+          "name": "dorsal_fin",
+          "parent": "body",
+          "pivot": [
+            0.67293,
+            3.96959,
+            -3.89125
+          ],
+          "cubes": [
+            {
+              "origin": [
+                -1.05983,
+                4.07051,
+                -5.16
+              ],
+              "size": [
+                4.5,
+                2,
+                2.5
+              ],
+              "pivot": [
+                1.19017,
+                5.07051,
+                -3.91
+              ],
+              "rotation": [
+                0,
+                0,
+                -62.5
+              ],
+              "uv": [
+                0,
+                16
+              ],
+              "mirror": true
+            }
+          ]
+        },
+        {
+          "name": "tail",
+          "parent": "blahaj",
+          "pivot": [
+            5.8,
+            2,
+            -3.91
+          ],
+          "cubes": [
+            {
+              "origin": [
+                5.8,
+                1,
+                -4.91
+              ],
+              "size": [
+                6,
+                2,
+                2
+              ],
+              "uv": [
+                0,
+                12
+              ],
+              "mirror": true
+            }
+          ]
+        },
+        {
+          "name": "caudal_fin",
+          "parent": "tail",
+          "pivot": [
+            10.71582,
+            2.99455,
+            -3.91
+          ],
+          "cubes": [
+            {
+              "origin": [
+                9.46582,
+                3.04455,
+                -4.66
+              ],
+              "size": [
+                3.5,
+                1.5,
+                1.5
+              ],
+              "pivot": [
+                11.21582,
+                3.79455,
+                -3.91
+              ],
+              "rotation": [
+                0,
+                0,
+                -55
+              ],
+              "uv": [
+                18,
+                17
+              ],
+              "mirror": true
+            }
+          ]
+        },
+        {
+          "name": "dorsal_fin_small",
+          "parent": "tail",
+          "pivot": [
+            7.80178,
+            2.88618,
+            -3.91
+          ],
+          "cubes": [
+            {
+              "origin": [
+                7.15178,
+                2.13618,
+                -4.66
+              ],
+              "size": [
+                1.5,
+                1.5,
+                1.5
+              ],
+              "pivot": [
+                7.90178,
+                2.88618,
+                -3.91
+              ],
+              "rotation": [
+                0,
+                0,
+                -122.5
+              ],
+              "uv": [
+                0,
+                20
+              ],
+              "mirror": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

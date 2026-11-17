@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "blahaj:block/blahaj"
+    },
+    "facing=east": {
+      "model": "blahaj:block/blahaj"
+    },
+    "facing=south": {
+      "model": "blahaj:block/blahaj"
+    },
+    "facing=west": {
+      "model": "blahaj:block/blahaj"
+    }
+  }
+}

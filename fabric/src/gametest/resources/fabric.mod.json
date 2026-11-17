@@ -1,0 +1,9 @@
+{
+  "schemaVersion": 1,
+  "id": "blahaj-gametest",
+  "version": "1.0.0",
+  "name": "Blahaj gametest",
+  "environment": "client",
+  "entrypoints": { "fabric-client-gametest": ["com.blahaj.gametest.BlahajClientGameTest", "com.blahaj.gametest.VoidSequenceGameTest"] },
+  "depends": { "blahaj": "*" }
+}

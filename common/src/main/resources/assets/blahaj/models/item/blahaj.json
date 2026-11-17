@@ -1,0 +1,125 @@
+{
+  "textures": {
+    "particle": "blahaj:item/blahaj"
+  },
+  "display": {
+    "thirdperson_righthand": {
+      "rotation": [
+        0.0,
+        -36,
+        -180
+      ],
+      "translation": [
+        -5.5,
+        1.0,
+        7.5
+      ]
+    },
+    "thirdperson_lefthand": {
+      "rotation": [
+        0.0,
+        -30,
+        -180
+      ],
+      "translation": [
+        -7.25,
+        2.25,
+        7.5
+      ]
+    },
+    "firstperson_righthand": {
+      "rotation": [
+        59,
+        48,
+        -64
+      ],
+      "translation": [
+        -7.5,
+        0.25,
+        7.75
+      ]
+    },
+    "firstperson_lefthand": {
+      "rotation": [
+        59,
+        48,
+        -64
+      ],
+      "translation": [
+        -6.75,
+        0.5,
+        6.75
+      ]
+    },
+    "ground": {
+      "translation": [
+        0,
+        -2,
+        0
+      ],
+      "scale": [
+        0.8,
+        0.8,
+        0.8
+      ]
+    },
+    "gui": {
+      "rotation": [
+        107.28,
+        -40.98,
+        125.4
+      ],
+      "translation": [
+        2.5,
+        -1.5,
+        0
+      ],
+      "scale": [
+        1.1,
+        1.1,
+        1
+      ]
+    },
+    "head": {
+      "rotation": [
+        0,
+        -26,
+        0
+      ],
+      "translation": [
+        -1,
+        6.5,
+        0
+      ],
+      "scale": [
+        1.3,
+        1.3,
+        1.3
+      ]
+    },
+    "fixed": {
+      "rotation": [
+        90,
+        56,
+        -60
+      ],
+      "translation": [
+        -2,
+        -2.25,
+        -0.75
+      ]
+    },
+    "on_shelf": {
+      "rotation": [
+        62.75,
+        -48.75,
+        90
+      ],
+      "translation": [
+        2.5,
+        0,
+        0
+      ]
+    }
+  }
+}

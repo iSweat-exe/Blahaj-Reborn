@@ -1,0 +1,9 @@
+{
+  "model": {
+    "type": "minecraft:special",
+    "base": "blahaj:item/blahaj",
+    "model": {
+      "type": "geckolib:geckolib"
+    }
+  }
+}

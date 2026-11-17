@@ -1,0 +1,18 @@
+{
+  "criteria": {
+    "survived": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "display": {
+    "icon": { "id": "blahaj:void_blahaj" },
+    "title": { "translate": "advancements.blahaj.what_happened.title" },
+    "description": { "translate": "advancements.blahaj.what_happened.description" },
+    "background": "minecraft:gui/advancements/backgrounds/stone",
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "requirements": [["survived"]]
+}

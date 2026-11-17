@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.blahaj.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "AtmosphericFogMixin",
+    "CameraMixin",
+    "HumanoidModelMixin",
+    "SkyRendererMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

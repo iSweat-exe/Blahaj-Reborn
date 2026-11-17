@@ -1,0 +1,53 @@
+{
+  "squish": {
+    "subtitle": "subtitles.blahaj.squish",
+    "sounds": [
+      "blahaj:squish"
+    ]
+  },
+  "void.rise": {
+    "sounds": [
+      "blahaj:void/rise"
+    ],
+    "subtitle": "subtitles.blahaj.void_rise"
+  },
+  "void.open": {
+    "sounds": [
+      "blahaj:void/open"
+    ],
+    "subtitle": "subtitles.blahaj.void_open"
+  },
+  "void.loop": {
+    "sounds": [
+      {
+        "name": "blahaj:void/loop",
+        "stream": true
+      }
+    ],
+    "subtitle": "subtitles.blahaj.void_loop"
+  },
+  "void.glitch": {
+    "sounds": [
+      "blahaj:void/glitch1",
+      "blahaj:void/glitch2",
+      "blahaj:void/glitch3"
+    ]
+  },
+  "void.collapse": {
+    "sounds": [
+      "blahaj:void/collapse"
+    ],
+    "subtitle": "subtitles.blahaj.void_collapse"
+  },
+  "void.explode": {
+    "sounds": [
+      "blahaj:void/explode"
+    ],
+    "subtitle": "subtitles.blahaj.void_explode"
+  },
+  "void.ring": {
+    "sounds": [
+      "blahaj:void/ring"
+    ]
+  }
+}

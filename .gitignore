@@ -1,0 +1,38 @@
+# Gradle
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+.kotlin/
+
+# Run directories and logs
+run/
+runs/
+*/runs/
+*.log
+hs_err_pid*
+crash-reports/
+
+# Local test assets (shader packs used by -Pshaders=true)
+fabric/run-shaderpacks/
+
+# IDEs
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+.classpath
+.project
+.settings/
+bin/
+out/
+.eclipse/
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Misc
+local.properties
+*.class

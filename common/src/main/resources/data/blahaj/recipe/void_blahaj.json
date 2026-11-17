@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "D": "minecraft:diamond",
+    "E": "minecraft:ender_eye",
+    "H": "blahaj:blahaj"
+  },
+  "pattern": [
+    "DED",
+    "EHE",
+    "DED"
+  ],
+  "result": {
+    "id": "blahaj:void_blahaj"
+  }
+}

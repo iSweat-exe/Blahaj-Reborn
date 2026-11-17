@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "${mod_id}",
+  "version": "${version}",
+  "name": "${mod_name}",
+  "description": "${mod_description}",
+  "authors": ["${mod_authors}"],
+  "license": "MIT",
+  "icon": "assets/blahaj/icon.png",
+  "contact": {
+    "homepage": "https://github.com/iSweat-exe/Blahaj-Reborn",
+    "issues": "https://github.com/iSweat-exe/Blahaj-Reborn/issues",
+    "sources": "https://github.com/iSweat-exe/Blahaj-Reborn"
+  },
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.blahaj.fabric.BlahajFabric"],
+    "client": ["com.blahaj.fabric.BlahajFabricClient"]
+  },
+  "mixins": ["blahaj.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.19",
+    "minecraft": "~${minecraft_version}",
+    "java": ">=${java_version}",
+    "fabric-api": "*",
+    "geckolib": ">=${geckolib_version}"
+  }
+}
